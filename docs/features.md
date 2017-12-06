@@ -86,6 +86,7 @@ You can pass command-line options to your engine in two ways (thanks Ian Bacher!
 
 ### Output Directory and Auxiliary Directory
 The `--output-directory` and `--aux-directory` flags can be set in several ways:
+
  * Using a TEX directive, such as `%!TEX output_directory = <path>` near the top of the file.
  * Using the [TeX Options](#tex-options) feature to set `--output-directory` and / or `--aux-directory`.
  * Using the corresponding `output_directory` and `aux_directory` settings detailed in [the settings section](settings.md#output-directory-settings).
@@ -98,6 +99,7 @@ There are three special values that can be used, `<<temp>>` `<<project>>` and `<
 
 ### Jobname
 The `--jobname` flag can be set in several ways:
+
  * Using a TEX directive, such as `%!TEX jobname = <jobname>` near the top of the file.
  * Using the [TeX Options](#tex-options) feature to set `--jobname`
  * Using the corresponding `jobname` setting detailed in [the settings section](settings.md#output-directory-settings).
